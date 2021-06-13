@@ -13,6 +13,13 @@ const Layout = ({ children }) => {
 					integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
 					crossOrigin="anonymous"
 				></link>
+				<link
+					rel="stylesheet"
+					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+					integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+					crossOrigin="anonymous"
+					referrerPolicy="no-referrer"
+				/>
 			</Head>
 			<div className={styles.container}>
 				<main className={styles.main}>{children}</main>

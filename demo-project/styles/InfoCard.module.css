@@ -1,0 +1,74 @@
+.numberOfVideos {
+	font-size: 1.25rem;
+	padding: 5px;
+}
+
+/* Blue colored components */
+.playButtonBlue {
+	border-radius: 10px;
+	background-color: #42c8fe;
+	height: 4rem;
+	width: 4rem;
+	border: 0px;
+}
+
+.cardBackgroundBlue {
+	border: 0px;
+	border-radius: 10px;
+	background-color: #aee7fe;
+}
+
+.playIconBlue {
+	color: #42c8fe;
+}
+
+/* Green colored components */
+.playButtonGreen {
+	border-radius: 10px;
+	background-color: #31c238;
+	height: 4rem;
+	width: 4rem;
+	border: 0px;
+}
+
+.cardBackgroundGreen {
+	border: 0px;
+	border-radius: 10px;
+	background-color: #c4fec5;
+}
+
+.playIconGreen {
+	color: #31c238;
+}
+
+/* Orange colored components */
+.playButtonOrange {
+	border-radius: 10px;
+	background-color: #ff922b;
+	height: 4rem;
+	width: 4rem;
+	border: 0px;
+}
+
+.cardBackgroundOrange {
+	border: 0px;
+	border-radius: 10px;
+	background-color: #ffd8b7;
+}
+
+.playIconOrange {
+	color: #ff922b;
+}
+
+.infoCard {
+	width: 15vw;
+	height: auto;
+}
+
+.circle {
+	height: 2.5rem;
+	width: 2.5rem;
+	border: 0px;
+	background-color: #ffffff;
+	border-radius: 20px;
+}
