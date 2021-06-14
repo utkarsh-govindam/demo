@@ -20,13 +20,13 @@
 
 	border: 1px rgba(223, 223, 223, 0.527) solid;
 	border-radius: 4px !important;
-	width: 26vh;
-	height: auto;
+	/* width: auto;
+	height: auto; */
 }
 
 .image {
 	border-radius: 10px;
-	width: 21vh;
+	width: 90%;
 	height: auto;
 }
 
@@ -46,7 +46,8 @@
 
 .playButton {
 	position: relative;
-	margin: -1.25rem 0 0 11.8rem;
+	margin-top: -10%;
+	margin-left: 85%;
 }
 
 .circle {

@@ -5,9 +5,9 @@ const DetailsCard = () => {
 	return (
 		<div>
 			<div className={"card " + styles.outerCard}>
-				<div className="col-sm-12">
-					<div className="row p-4">
-						<div className="col-4">
+				<div className="col-12">
+					<div className="row p-3 d-flex justify-content-center align-items-center">
+						<div className="p-3 col-lg-4 col-md-12   ">
 							<InfoCard
 								color="blue"
 								value={125}
@@ -16,7 +16,7 @@ const DetailsCard = () => {
 								icon="play"
 							/>
 						</div>
-						<div className="col-4">
+						<div className="p-3 col-lg-4 col-md-12">
 							<InfoCard
 								color="green"
 								value={5}
@@ -25,7 +25,7 @@ const DetailsCard = () => {
 								icon="graduation-cap"
 							/>
 						</div>
-						<div className="col-4">
+						<div className="p-3 col-lg-4 col-md-12 ">
 							<InfoCard
 								color="orange"
 								value={25}

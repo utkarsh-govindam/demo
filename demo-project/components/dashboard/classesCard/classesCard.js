@@ -12,25 +12,25 @@ const ClassesCard = () => {
 								Watch Lifology Master Class
 							</h5>
 						</div>
-						<div className="col-sm-3 d-flex justify-content-center align-items-center ">
+						<div className="p-1 col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center ">
 							<VideoCard
 								author="Chetan Bhagat"
 								imgSrc="/authors/ChetanBhagatImage.jpg"
 							/>
 						</div>
-						<div className="col-sm-3 d-flex justify-content-center align-items-center ">
+						<div className="p-1 col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center ">
 							<VideoCard
 								author="Ashwin Sanghi"
 								imgSrc="/authors/AshwinSanghiImagejpg.jpg"
 							/>
 						</div>
-						<div className="col-sm-3 d-flex justify-content-center align-items-center ">
+						<div className="p-1 col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center ">
 							<VideoCard
 								author="Anand NeelaKantan"
 								imgSrc="/authors/AnandNeelakantanImage.jpg"
 							/>
 						</div>
-						<div className="col-sm-3 d-flex justify-content-center align-items-center ">
+						<div className="p-1 col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center ">
 							<VideoCard
 								author="Shashi Tharoor"
 								imgSrc="/authors/ShashiTharoorImage.jpg"

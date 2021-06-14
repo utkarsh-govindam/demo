@@ -32,5 +32,8 @@
 }
 
 .Appbar {
+	width: 84%;
 	height: 4rem;
+	position: fixed;
+	z-index: 1;
 }
