@@ -1,0 +1,92 @@
+.outerCard {
+	border-radius: 4px !important;
+	box-shadow: 0 1.4px 1.7px -5px rgba(0, 0, 0, 0.014),
+		0 3.3px 4.1px -5px rgba(0, 0, 0, 0.02),
+		0 6.3px 7.6px -5px rgba(0, 0, 0, 0.025),
+		0 11.2px 13.6px -5px rgba(0, 0, 0, 0.03),
+		0 20.9px 25.5px -5px rgba(0, 0, 0, 0.036),
+		0 50px 61px -5px rgba(0, 0, 0, 0.05);
+	border: 1px rgba(223, 223, 223, 0.527) solid;
+}
+
+.numberOfVideos {
+	font-size: 1.25rem;
+	padding: 5px;
+}
+
+/* Blue colored components */
+.playButtonBlue {
+	border-radius: 5px !important;
+	background-color: #42c8fe;
+	height: 4rem;
+	width: 4rem;
+	border: 0px;
+}
+
+.cardBackgroundBlue {
+	border: 0px;
+	border-radius: 5px !important;
+	background-color: #aee7fe;
+}
+
+.playIconBlue {
+	color: #42c8fe;
+}
+
+/* Green colored components */
+.playButtonGreen {
+	border-radius: 5px !important;
+	background-color: #31c238;
+	height: 4rem;
+	width: 4rem;
+	border: 0px;
+}
+
+.cardBackgroundGreen {
+	border: 0px;
+	border-radius: 5px !important;
+	background-color: #c4fec5;
+}
+
+.playIconGreen {
+	color: #31c238;
+}
+
+/* Orange colored components */
+.playButtonOrange {
+	border-radius: 5px !important;
+	background-color: #ff922b;
+	height: 4rem;
+	width: 4rem;
+	border: 0px;
+}
+
+.cardBackgroundOrange {
+	border: 0px;
+	border-radius: 5px !important;
+	background-color: #ffd8b7;
+}
+
+.playIconOrange {
+	color: #ff922b;
+}
+
+.infoCard {
+	width: 17vw;
+	height: auto;
+	box-shadow: 0 0px 1.3px -14px rgba(0, 0, 0, 0.052),
+		0 0px 3.1px -14px rgba(0, 0, 0, 0.067),
+		0 0px 5.5px -14px rgba(0, 0, 0, 0.075),
+		0 0px 9.2px -14px rgba(0, 0, 0, 0.082),
+		0 0px 15.1px -14px rgba(0, 0, 0, 0.09),
+		0 0px 26.4px -14px rgba(0, 0, 0, 0.106),
+		0 0px 57px -14px rgba(0, 0, 0, 0.16);
+}
+
+.circle {
+	height: 2.5rem;
+	width: 2.5rem;
+	border: 0px;
+	background-color: #ffffff;
+	border-radius: 20px !important;
+}

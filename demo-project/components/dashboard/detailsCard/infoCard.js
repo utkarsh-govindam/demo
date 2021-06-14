@@ -1,4 +1,4 @@
-import styles from "../../../styles/InfoCard.module.css";
+import styles from "../../../styles/detailsCard.module.css";
 
 /**
  * Card to display the details of the
@@ -21,7 +21,7 @@ const InfoCard = (props) => {
 
 	return (
 		<div className={styles.infoCard}>
-			<div className={"card p-3 " + cardBackground}>
+			<div className={"card p-4 " + cardBackground}>
 				<div className="row">
 					<div className="col-sm-4">
 						<div
@@ -55,7 +55,9 @@ const InfoCard = (props) => {
 				</div>
 				<div className="row mt-2">
 					<span>
-						<strong className={styles.numberOfVideos}>{props.value}</strong>
+						<strong className={styles.numberOfVideos}>
+							{props.value}
+						</strong>
 						{props.entity}
 					</span>
 				</div>

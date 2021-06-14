@@ -1,10 +1,11 @@
 import InfoCard from "./infoCard";
+import styles from '../../../styles/detailsCard.module.css'
 
 const DetailsCard = () => {
 	return (
 		<div>
-			<div className="card">
-				<div className="col-sm-8 offset-2">
+			<div className={"card " + styles.outerCard}>
+				<div className="col-sm-12">
 					<div className="row p-4">
 						<div className="col-4">
 							<InfoCard

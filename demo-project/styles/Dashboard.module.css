@@ -1,40 +1,36 @@
 .navigation {
-	height: 93.9vh;
+	height: 99.8vh;
 }
 
-.cardheading
-{
- text-align: center;
- color:#007bff;
- margin-top: 1.2rem;
- margin-bottom:1.2rem;
+.cardheading {
+	text-align: center;
+	color: #007bff;
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
 }
-.listcontainer
-{
-	margin:0.3rem;
-	
+.listcontainer {
+	margin: 0.3rem;
 }
-.listcontainer li
-{
-	margin-bottom:1.2rem;
+.listcontainer li {
+	margin-bottom: 1.2rem;
 	text-transform: none;
-	padding:0.5rem;
+	padding: 0.5rem;
 }
 
-.listcontainer .active a:hover
-{
- color:white;
+.listcontainer .active a:hover {
+	color: white;
 }
-.listcontainer li a:hover
-{
+.listcontainer li a:hover {
 	text-decoration: none;
-	color:black;   
+	color: black;
 }
 
-.active
-{
-background-color: #007bff;
-color:white;
-border-radius:6px;
+.active {
+	background-color: #007bff;
+	color: white;
+	border-radius: 6px;
 }
 
+.Appbar {
+	height: 4rem;
+}
