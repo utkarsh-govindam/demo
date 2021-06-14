@@ -2,6 +2,8 @@ import Navigation from "../components/Navigation";
 import DetailsCard from "../components/Dashboard/detailsCard/detailsCard";
 import ClassesCard from "../components/dashboard/classesCard/classesCard";
 import React from "react";
+import MainVAssistent from "../components/dashboard/virtAssistent/mainStart";
+
 
 const UserDashboard = () => {
 	return (
@@ -16,7 +18,7 @@ const UserDashboard = () => {
 					</div>
 				</div>
 				<div className="col-sm-3">
-					<h4>This is the virtual lifology section</h4>
+					<MainVAssistent/>
 				</div>
 			</div>
 		</Navigation>

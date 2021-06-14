@@ -18,3 +18,17 @@ a {
 .card {
 	border-radius: 0px !important;
 }
+
+.font9 {
+	font-size: .7rem;
+}
+
+.card-blue {
+	background-color: #007bff!important;
+	color: white;
+	border-radius: 5px !important;
+}
+
+.imagevaslogo {
+	height: .5rem!important;
+}

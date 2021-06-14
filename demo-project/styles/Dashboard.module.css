@@ -8,9 +8,11 @@
 	margin-top: 1.2rem;
 	margin-bottom: 1.2rem;
 }
+
 .listcontainer {
 	margin: 0.3rem;
 }
+
 .listcontainer li {
 	margin-bottom: 1.2rem;
 	text-transform: none;
@@ -20,6 +22,7 @@
 .listcontainer .active a:hover {
 	color: white;
 }
+
 .listcontainer li a:hover {
 	text-decoration: none;
 	color: black;
@@ -36,4 +39,16 @@
 	height: 4rem;
 	position: fixed;
 	z-index: 1;
+}
+.imagevaslogo {
+	height: 2rem;
+}
+.font9 {
+	font-size: .7rem;
+}
+.imgMain{
+	background-color: #cbccd1;
+	margin: 5%;
+	border-radius:15px;
+	height: 21rem;
 }
