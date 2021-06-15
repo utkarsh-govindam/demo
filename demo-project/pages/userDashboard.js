@@ -1,6 +1,7 @@
 import Navigation from "../components/Navigation";
 import DetailsCard from "../components/Dashboard/detailsCard/detailsCard";
 import ClassesCard from "../components/dashboard/classesCard/classesCard";
+import BaseCarousel from "../components/carousels/baseCarousel";
 import React from "react";
 
 const UserDashboard = () => {
@@ -13,6 +14,9 @@ const UserDashboard = () => {
 					</div>
 					<div className="p-3">
 						<ClassesCard />
+					</div>
+					<div className="p-3">
+						<BaseCarousel/>
 					</div>
 				</div>
 				<div className="col-sm-3">

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Layout.module.css";
 
+
 const Layout = ({ children }) => {
 	return (
 		<div>
@@ -20,6 +21,9 @@ const Layout = ({ children }) => {
 					crossOrigin="anonymous"
 					referrerPolicy="no-referrer"
 				/>
+				
+
+				
 			</Head>
 			<div className={styles.container}>
 				<main className={styles.main}>{children}</main>
@@ -28,6 +32,7 @@ const Layout = ({ children }) => {
 					integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
 					crossOrigin="anonymous"
 				></script>
+			
 			</div>
 		</div>
 	);
