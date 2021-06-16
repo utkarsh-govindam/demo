@@ -1,2 +1,2 @@
 # demo
-Demo pages for upcoming project
+Demo of user dashboard 
