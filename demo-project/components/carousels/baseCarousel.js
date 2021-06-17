@@ -15,16 +15,17 @@ const BaseCarousel = () => {
       <div className="card-title">
         <header>
           <div class="d-flex justify-content-start"><strong style={{fontSize:"22px"}}>Assesment</strong></div>
-          <div class="d-flex justify-content-end"><div className="d-flex justify-content-end ">20% completed
-            <div className="d-flex justify-content-start progress m-2 " style={{ height: "0.5rem", width: "9rem" }}>
-              <div className="progress-bar" role="progressbar" style={{ width: '30%' }} />
+          <div class="d-flex justify-content-end"><div className="d-flex justify-content-end m-2">20% completed 
+            <div className="d-flex justify-content-start progress  m-2 d-none d-sm-none d-md-none d-lg-block " style={{ height: "0.5rem", width: "9rem" }}>
+              <div className=" progress-bar d-none d-lg-block " style={{ width: '30%',height: "0.5rem" }} >
+              </div>
             </div>
           </div></div>
         </header>
       </div>
       <div className="card-body">
         <section ref={ref}>
-          <b onClick={() => scroll(-200)}><i className="fa fa-angle-left"></i></b>
+          <b className="arrow" onClick={() => scroll(-200)}><i className="fa fa-angle-left"></i></b>
           <div className="product">
             <picture>
               <img src="../../scrollImage/scroll1.png" alt="scroll_one" />
@@ -140,7 +141,7 @@ const BaseCarousel = () => {
             </picture>
           </div>
 
-          <p><b style={{ right: "20px" }} onClick={() => scroll(200)}><i className="fa fa-angle-right"></i></b> </p>
+          <b  className="arrow" style={{ right: "20px" }} onClick={() => scroll(200)}><i className="fa fa-angle-right "></i></b>
 
         </section>
 
