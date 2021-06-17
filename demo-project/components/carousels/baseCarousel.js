@@ -14,11 +14,18 @@ const BaseCarousel = () => {
     <div className={"card " + styles.outerCard}>
       <div className="card-title">
         <header>
+<<<<<<< Updated upstream
           <div class="d-flex justify-content-start"><strong style={{fontSize:"22px"}}>Assesment</strong></div>
           <div class="d-flex justify-content-end"><div className="d-flex justify-content-end m-2">20% completed 
             <div className="d-flex justify-content-start progress  m-2 d-none d-sm-none d-md-none d-lg-block " style={{ height: "0.5rem", width: "9rem" }}>
               <div className=" progress-bar d-none d-lg-block " style={{ width: '30%',height: "0.5rem" }} >
               </div>
+=======
+          <div className="d-flex justify-content-start"><strong style={{fontSize:"22px"}}>Assesment</strong></div>
+          <div className="d-flex justify-content-end"><div className="d-flex justify-content-end ">20% completed
+            <div className="d-flex justify-content-start progress m-2 " style={{ height: "0.5rem", width: "9rem" }}>
+              <div className="progress-bar" role="progressbar" style={{ width: '30%' }} />
+>>>>>>> Stashed changes
             </div>
           </div></div>
         </header>

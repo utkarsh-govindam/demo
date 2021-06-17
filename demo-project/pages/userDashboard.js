@@ -21,7 +21,9 @@ const UserDashboard = () => {
 						<BaseCarousel/>
 					</div>
 				</div>
-				<div className="col-sm-3">
+				<div className="col-sm-3 container" 
+				// style={{position:"absolute",right:0, bottom:0, top:12}}
+				>
 					<MainVAssistent/>
 				</div>
 			</div>
