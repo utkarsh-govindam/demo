@@ -6,8 +6,6 @@ body {
 	font-family: "open sans", sans-serif;
 }
 
-<<<<<<< Updated upstream
-=======
 * {
 	padding: 0;
 	margin: 0;
@@ -15,7 +13,6 @@ body {
 	font-family: -webkit-pictograph;
 }
 
->>>>>>> Stashed changes
 a {
 	color: inherit;
 	text-decoration: none;
@@ -29,17 +26,7 @@ a {
 	border-radius: 0px !important;
 }
 
-<<<<<<< Updated upstream
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: -webkit-pictograph;
-}
-header{
-=======
 header {
->>>>>>> Stashed changes
 	width: 98%;
 	height: 60px;
 	margin: 0 auto;
@@ -108,37 +95,14 @@ picture img {
 	color: white;
 }
 @media only screen and (max-width: 1366px) {
-	.text-wrapper p
-   {
-	font-size: small;	
-   }
-	.text-wrapper h6
-   {
-	font-size: small;	
-   }
+	.text-wrapper p {
+		font-size: small;
+	}
+	.text-wrapper h6 {
+		font-size: small;
+	}
 }
 @media only screen and (max-width: 1120px) {
-<<<<<<< Updated upstream
-	.text-wrapper p
-   {
-	font-size: x-small;	
-   }
-	.text-wrapper h6
-   {
-	font-size: x-small;	
-   }
-   section .product {
-	min-width: 35%;
-	margin:  0 10px  0 0;
-}
-
-
-   
-  
-	
-}
-
-=======
 	.text-wrapper p {
 		font-size: x-small;
 	}
@@ -165,4 +129,3 @@ picture img {
 .imagevaslogo {
 	height: 0.5rem !important;
 }
->>>>>>> Stashed changes
